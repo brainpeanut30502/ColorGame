@@ -4,24 +4,66 @@
 }
 
 #header {
-  background-color: lightpink;
+  background-color:orangered;
   height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
-#container {
+#container1 {
   background-color: black;
-  height: 70vh;
+  height: 27vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+#container2{
+  background-color: black;
+  height: 27vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#container3{
+  font-size: x-large;
+  color: white;
+  background-color: black;
+  height: 16vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 
 .tile {
   height: 200px;
   width: 200px;
   background-color: aliceblue;
+}
+
+  button{
+    background-color:orangered;
+    font-family: "Source Code Pro";
+    color:white ;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    margin: 0px auto 0;
+    padding: 15px 20px;
+    letter-spacing: 3px;
+}
+button:hover{
+  background-color:#2E1263 ;
+  color:white;
+  transition: 0.3s;
+  text-decoration: underline;
+  letter-spacing: 4px;
+
 }
